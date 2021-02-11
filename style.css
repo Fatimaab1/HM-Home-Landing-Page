@@ -1,5 +1,16 @@
-body {
-    background-color: #C9C0B7;
-    font-family: Roboto, Arial;
-    color: #EBEBEB;
+.menu-session {
+    list-style: none;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.top-logo {
+    display: flex;
+    justify-content: flex-start;
 }
