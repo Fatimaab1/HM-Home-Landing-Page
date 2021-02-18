@@ -1,16 +1,21 @@
-.menu-session {
-    list-style: none;
-}
-
-
-.menu {
-    display: flex;
-    flex-direction: row;
+body {
+  margin: 0;
 }
 
 
 
 .top-logo {
+  width: 30px;
+  height: 20px;
+}
+
+.left-navigation {
     display: flex;
-    justify-content: flex-start;
+    float: left;
+}
+
+.right-navigation {
+list-style: none;
+display: flex;
+float: right;
 }
