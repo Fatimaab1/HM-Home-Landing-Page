@@ -1,21 +1,65 @@
 body {
-  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: 55px;
 }
 
 
-
-.top-logo {
-  width: 30px;
-  height: 20px;
-}
-
-.left-navigation {
+.nav-menu {
+    margin: 0;
     display: flex;
-    float: left;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 0px;
 }
 
-.right-navigation {
-list-style: none;
-display: flex;
-float: right;
+.nav-item {
+    list-style: none;
+    margin-right: 36px;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.dropdown-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+
+
+
+.main-pictures {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    width: 300px;
 }
