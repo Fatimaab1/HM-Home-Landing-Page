@@ -1,8 +1,6 @@
 body {
     font-family: 'Futura PTT','Helvetica Neue','Arial',sans-serif;
-    font-size: 13px;
-
-   
+    font-size: 13px;  
 }
 
 .logo {
@@ -24,7 +22,6 @@ body {
 .nav-item {
     list-style: none;
     margin-right: 36px;
-
 }
 
 .nav-item a {
@@ -57,20 +54,10 @@ input {
 }
 
 
-
-
-.main-pictures {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 2.5% 
-    box-sizing: border-box;
-}
-
 .gallery {
     width: 30%;
-    
 }
+
 
 footer {
     background-color: #f5f5f5;
@@ -78,23 +65,41 @@ footer {
 
 .email-marketing {
     margin-top: 40px;
-    position: relative;
-    left: 38%;
-}
-
-hr {
-    border-top: 1px #333333;
-    margin-bottom: 40px;
+    display: grid;
+    justify-content: center;
 }
 
 .membership {
-    margin-bottom: 20px;
+    margin-top: 15px;
 }
+
 .email-input {
-    margin-left: 10%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 10px;
     text-align: center;
 }
+
+h4 {
+    margin-top: 20%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col {
+    width: 30%;
+    padding: 0 18px;
+}
+
 
 
 
@@ -103,7 +108,7 @@ hr {
     
     .line {
         width: 30px;
-        height: 1.5px;
+        height: 2px;
         background-color: black;
         margin: 5px;
     }
